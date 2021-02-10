@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.3.0]
+
+-   Add AES Key Wrap algorithm.
+    -   [523544f](https://www.github.com/iotaledger/crypto.rs/commit/523544f23ccb08cf75339996700b971bdc659d0e) Add changelog on 2021-01-09
+-   Add HMAC-SHA384 message authentication algorithm.
+    -   [a1d3926](https://www.github.com/iotaledger/crypto.rs/commit/a1d39267a3dbf2970efc7a481d880bcbf463006d) Add changelog message on 2020-12-18
+-   Add PBKDF2-HMAC-SHA256/PBKDF2-HMAC-SHA384 key derivation.
+    -   [8d6903b](https://www.github.com/iotaledger/crypto.rs/commit/8d6903bc0869a0261b075e9151226e75b0eaa756) Add changelog message on 2021-01-11
+-   Add SHA384 hash function.
+    -   [aa1734e](https://www.github.com/iotaledger/crypto.rs/commit/aa1734e9cc1297316a9a11e01bff60f2c1513ffc) Add changelog message on 2020-12-18
+-   Add X25519 Diffie-Hellman key exchange and public key derivation using the Curve25519 curve.
+    -   [a72b647](https://www.github.com/iotaledger/crypto.rs/commit/a72b64717447168edf384bb387850a4fd66a1e60) Add changelog message and document the Option&lt;\_> usage in the X25519 function on 2021-01-12
+    -   [7c7d47e](https://www.github.com/iotaledger/crypto.rs/commit/7c7d47ebde64fc11296cd69f3f319a458b32cb03) Update .changes/x25519.md on 2021-02-05
+
 ## [0.2.0]
 
 -   Add BIP39 wordlist codec.
